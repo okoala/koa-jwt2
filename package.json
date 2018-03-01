@@ -1,6 +1,6 @@
 {
   "name": "koa-jwt2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JWT authentication middleware.",
   "keywords": [
     "auth",
