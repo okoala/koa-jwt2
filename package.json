@@ -1,0 +1,49 @@
+{
+  "name": "koa-jwt2",
+  "version": "1.0.0",
+  "description": "JWT authentication middleware.",
+  "keywords": [
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "http",
+    "jwt",
+    "token",
+    "oauth",
+    "koa"
+  ],
+  "main": "./lib",
+  "scripts": {
+    "test": "egg-bin test"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "jsonwebtoken": "^8.1.0",
+    "koa-unless": "^1.0.7",
+    "lodash.isfunction": "^3.0.9",
+    "lodash.set": "^4.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.7",
+    "conventional-changelog": "~1.1.0",
+    "mocha": "1.x.x",
+    "koa": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/okoala/koa-jwt2.git"
+  },
+  "bugs": {
+    "url": "http://github.com/okoala/koa-jwt2/issues"
+  },
+  "author": {
+    "name": "okoala",
+    "email": "dapixp@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
